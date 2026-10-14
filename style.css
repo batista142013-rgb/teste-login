@@ -1,0 +1,23 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, Arial, sans-serif; background: #e3e3e3; color: #393b3d; min-height: 100vh; }
+.page { display: flex; flex-direction: column; min-height: 100vh; }
+.nav { background: #fff; height: 56px; display: flex; align-items: center; padding: 0 24px; box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+.logo { display: flex; align-items: center; gap: 8px; text-decoration: none; color: #393b3d; font-weight: 700; font-size: 20px; }
+.logo-icon { width: 28px; height: 28px; }
+.login-wrap { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 32px 16px; }
+.login-card { background: #fff; width: 100%; max-width: 400px; padding: 40px 32px; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,.06); }
+.login-card h1 { font-size: 26px; font-weight: 700; text-align: center; margin-bottom: 28px; color: #393b3d; }
+.input-group { margin-bottom: 14px; }
+.input-group input { width: 100%; height: 48px; border: 1px solid #b8b8b8; border-radius: 6px; padding: 0 14px; font-size: 15px; background: #fff; color: #393b3d; outline: none; }
+.input-group input::placeholder { color: #999; }
+.input-group input:focus { border-color: #00a2ff; }
+.error { color: #d86868; font-size: 13px; min-height: 18px; margin-bottom: 8px; }
+#loginBtn { width: 100%; height: 48px; background: #00a2ff; color: #fff; border: none; border-radius: 6px; font-size: 16px; font-weight: 600; margin-bottom: 18px; }
+#loginBtn:disabled { background: #8ecdf5; }
+.links { display: flex; justify-content: space-between; font-size: 13px; margin-bottom: 26px; }
+.links a { color: #00a2ff; text-decoration: none; }
+.social { display: flex; flex-direction: column; gap: 10px; }
+.social-btn { height: 44px; background: #fff; border: 1px solid #b8b8b8; border-radius: 6px; font-size: 14px; color: #393b3d; }
+.foot { margin-top: 32px; font-size: 12px; color: #666; display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.foot-links { display: flex; gap: 14px; }
+.foot-links a { color: #666; text-decoration: none; }
